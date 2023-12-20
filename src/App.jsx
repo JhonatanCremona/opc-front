@@ -4,6 +4,7 @@ import { Chart } from "./components/Chart"
 import { Layout } from './components/Layout';
 import { Routes, Route } from 'react-router-dom';
 import './App.css'
+import { Dashboard } from './components/Dashboard/Dashboard';
 
 
 
@@ -27,7 +28,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout/>} >
           <Route path='listar' element={<Chart data = {initialData}/>}/>
-
+          <Route path="Dashboard" element={<Dashboard/>}/>
         </Route>
       </Routes>
   )
