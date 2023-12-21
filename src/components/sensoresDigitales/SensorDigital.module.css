@@ -1,0 +1,10 @@
+.boxContainer {
+    width: 10%;
+    padding: 15px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.boxTitle {
+    margin-top: 0;
+}

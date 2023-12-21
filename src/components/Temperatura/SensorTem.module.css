@@ -1,0 +1,17 @@
+.boxSensor {
+    border: 1px solid rgb(67, 70, 81);
+    border-radius: 15px;
+    width: 25%;
+    margin-bottom: 20px;
+}
+.boxTitle {
+    color: rgb(209, 212, 220);
+    margin-bottom: 10px !important;
+    font-size: 20px;
+}
+.boxCant {
+    font-size: 33px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    text-align: center;
+}

@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import './App.css'
 //Dependencias
+
+import { Routes, Route } from 'react-router-dom';
 import { Chart } from "./components/Chart"
 import { Layout } from './components/Layout';
-import { Routes, Route } from 'react-router-dom';
-import './App.css'
 import { Dashboard } from './components/Dashboard/Dashboard';
-
+import { Footer } from "./components/footer/Footer"
 
 
 function App() {
@@ -25,12 +26,17 @@ function App() {
   ];
 
   return (
+    <>
       <Routes>
         <Route path='/' element={<Layout/>} >
           <Route path='listar' element={<Chart data = {initialData}/>}/>
           <Route path="Dashboard" element={<Dashboard/>}/>
         </Route>
       </Routes>
+      <Footer/>
+    </>
+      
+
   )
 }
 

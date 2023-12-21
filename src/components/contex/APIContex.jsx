@@ -2,13 +2,6 @@ import { useState, createContext, useEffect } from "react";
 
 export const APIContext = createContext();
 export const APIContextProvaider = ({ children }) => {
-    const [etiquetas, setEtiquetas] = useState([]);
-    const [producto, setProducto] = useState([]);
-    const [idEtiqueta, setIdEtiqueta] = useState("");
-    const [etiqueta, setEtiqueta] = useState([]);
-
-
-    console.log("Soy de context Variable",import.meta.env.VITE_APP_TITLE);
 
     const API_URL = `http://localhost:5000`;
  
@@ -16,6 +9,7 @@ export const APIContextProvaider = ({ children }) => {
         method: "GET",
         headers: {"Content-type": "application/json;charset=UTF-8"}
     }
+    
     useEffect(() => {
         fetch(API_ETIQUETAS_LISTAR, options)
             .then(response => response.json()) 
