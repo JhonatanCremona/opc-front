@@ -9,13 +9,16 @@ export const Dashboard = () => {
     
 
     return(
-        <div>
-            <h1>Title</h1>
-            <div>
+        <div className={Style.boxDashboard}>
+            
+            <div className={Style.boxSensorTemp}>
+                <SensorTemp/>
+                <SensorTemp/>
+                <SensorTemp/>
                 <SensorTemp/>
             </div>
             
-            <div>
+            <div className={Style.boxSensorDigital}>
                 <SensorDigital/>
             </div>
         </div>

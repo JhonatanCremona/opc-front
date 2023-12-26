@@ -1,5 +1,5 @@
 .boxContainer {
-    width: 10%;
+    
     padding: 15px;
     background-color: rgb(19, 19, 19);
     border-radius: 15px;
@@ -7,4 +7,12 @@
 }
 .boxTitle {
     margin-top: 0;
+}
+
+.boxSensorD {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid tomato;
 }

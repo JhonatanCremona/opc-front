@@ -1,0 +1,11 @@
+.boxDashboard {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.boxSensorTemp {
+    width: 40%;
+}
+.boxSensorDigital {
+    width: 60%;
+}

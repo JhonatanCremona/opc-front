@@ -4,7 +4,7 @@ import Style from "./SensorDigital.module.css"
 
 export const SensorDigital = () => {
     return (
-        <article className="flex">
+        <article className={Style.boxSensorD}>
             <div className={Style.boxContainer}>
                 <p className={Style.boxTitle}>Component</p>
                 <ButtonOnOff color =""/>
