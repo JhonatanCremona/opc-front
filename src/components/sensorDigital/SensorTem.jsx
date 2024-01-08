@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export const SensorTemp = (props) => {
     const [ data, setData ]= useState(null);
-    const API_OPC = "http://192.168.0.86:5005/opcua/listaValores";
+    const API_OPC = "http://192.168.0.159:5005/opcua/listaValores";
 
     useEffect(()=>{
         async function getData() {

@@ -8,16 +8,7 @@ import Style from "./NavBar.module.css";
 
 export const NavBar = () => {
     const opciones = [
-        {
-            id:"1",
-            href:"/contacts",
-            text:"Contacto"
-        },
-        {
-            id:"2",
-            href:"/Dashboard",
-            text:"Dashboard"
-        }
+        
     ]
     return (
         <>

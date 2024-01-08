@@ -1,0 +1,19 @@
+[
+    {
+        "cocina_01": {
+            "nombre_equipo":  "",
+            "estado": "",
+            "fecha_inicio": ""
+        },
+        "cocina_02" : {
+            "nombre_equipo":  "",
+            "estado": "",
+            "fecha_inicio": ""
+        },
+        "cocina_03": {
+            "nombre_equipo":  "",
+            "estado": "",
+            "fecha_inicio": ""
+        }
+    }
+]

@@ -1,0 +1,21 @@
+[
+    "url: http://localhost:5005/{equipo}/{id}/sensor/{TAG}",
+    {
+        "id_sensor": 1,
+        "s_temperatura_producto": "",    
+        "results": [
+            {
+                "value": "20,23",
+                "fecha":"01/10/2024 15:46:00" 
+            },
+            {
+                "value": "20,23",
+                "fecha":"01/10/2024 15:46:00" 
+            },
+            {
+                "value": "20,23",
+                "fecha":"01/10/2024 15:46:00" 
+            }
+        ]   
+    }
+]

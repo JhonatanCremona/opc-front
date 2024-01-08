@@ -1,4 +1,4 @@
-import { SensorTemp } from "../Temperatura/SensorTem";
+import { SensorTemp } from "../sensorDigital/SensorTem";
 import { SensorDigital } from "../sensoresDigitales/SensorDigital";
 import axios from "axios";
 import Style from "./Dashboard.module.css";

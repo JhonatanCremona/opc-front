@@ -1,0 +1,23 @@
+
+[
+    "url: http//:localhost:50005/{equipo}/{id}",
+    {
+        "nombre_maquina":  "",
+        "componentes":{
+            "s_temp_ingreso": {
+                "value": "20,23"
+            },
+            "s_temp_producto":{
+                "value": "20,23"
+            },
+            "s_temp_equipo":{
+                "value": "20,23"
+            },
+            "s_nivel_agua":{
+                "value": "20,23"
+            },
+            "estado":""
+        },
+        "receta":"" 
+    }
+]

@@ -30,7 +30,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout/>} >
           <Route path='listar' element={<Chart data = {initialData}/>}/>
-          <Route path="Dashboard" element={<Dashboard/>}/>
+          <Route path="/" element={<Dashboard/>}/>
         </Route>
       </Routes>
       <Footer/>
